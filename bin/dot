@@ -49,8 +49,9 @@ $ZSH/homebrew/install.sh 2>&1
 # Upgrade and clean up homebrew
 echo "› brew update"
 brew update
+echo "› brew upgrade"
 brew upgrade
-brew doctor
+echo "› brew cleanup"
 brew cleanup
 
 # Install software
